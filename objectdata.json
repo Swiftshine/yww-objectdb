@@ -1,7 +1,7 @@
 {
     "MapObjSet": {
         "egg_box": {
-            "description": "",
+            "description": "Dispenses yarn balls.",
             "display_name": "Yarn Ball Box",
             "parameters": {
                 "Random": {
