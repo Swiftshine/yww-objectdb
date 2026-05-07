@@ -31,6 +31,22 @@
                     }
                 }
             }
+        },
+        "question_cloud_wing": {
+            "description": "When hit, this cloud makes something happen or appear.",
+            "display_name": "Question Cloud",
+            "parameters": {
+                "Hidden": {
+                    "data_type": "bool",
+                    "slot": 0,
+                    "description": "Indicates if the Question Cloud spawns hidden."
+                },
+                "Spawn Upwards": {
+                    "data_type": "bool",
+                    "slot": 2,
+                    "description": "If spawning an object, the object is spawned upwards."
+                }
+            }
         }
     }
 }
