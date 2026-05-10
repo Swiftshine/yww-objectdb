@@ -32,6 +32,53 @@
                 }
             }
         },
+        "knit_pipe": {
+            "display_name": "Pipe (Top)",
+            "parameters": {
+                "Cannot Enter": {
+                    "data_type": "bool",
+                    "slot": 1,
+                    "description": "If checked, this pipe will not be enterable."
+                },
+                "Color": {
+                    "data_type": "dropdown_int",
+                    "slot": 2,
+                    "description": "Indicates the color of the pipe.",
+                    "note": "The default value is green.",
+                    "values": {
+                        "Default": 0,
+                        "Red": 1,
+                        "Orange": 2,
+                        "Yellow": 3,
+                        "Light Green": 4,
+                        "Green": 5,
+                        "Light Blue": 6,
+                        "Dark Blue": 7,
+                        "Purple": 8,
+                        "Pink": 9,
+                        "White": 10,
+                        "Dark Gray": 11,
+                        "Light Gray": 12,
+                        "Brown": 13
+                    }
+                },
+                "Rotation": {
+                    "data_type": "float",
+                    "slot": 0,
+                    "note": "In degrees."
+                },
+                "Warp From": {
+                    "data_type": "string",
+                    "slot": 0,
+                    "description": "The player exits this pipe from a pipe with the specified tag."
+                },
+                "Warp To": {
+                    "data_type": "string",
+                    "slot": 1,
+                    "description": "The player enters this pipe and goes to a pipe with the specified tag."
+                }
+            }
+        },
         "question_cloud_wing": {
             "description": "When hit, this cloud makes something happen or appear.",
             "display_name": "Question Cloud",
