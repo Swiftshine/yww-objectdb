@@ -29,6 +29,27 @@
                         "Light Gray": 11,
                         "Brown": 12
                     }
+                },
+                "Yarn Ball Size": {
+                    "data_type": "dropdown_int",
+                    "slot": 2,
+                    "description": "Indicates the size of the yarn balls.",
+                    "note": "The default value is small, with a random chance of it being big.",
+                    "values": {
+                        "Default": 0,
+                        "Small": 1,
+                        "Medium": 2,
+                        "Big": 3
+                    }
+                },
+                "Forbidden Colors": {
+                    "data_type": "string",
+                    "slot": 1,
+                    "description": "These colors are not allowed to be dispensed.",
+                    "notes": [
+                        "Enter the numeric values of each color in a comma-separated list. Example: \"1,2,3\"",
+                        "If no colors are allowed, the game will crash."
+                    ]
                 }
             }
         },
