@@ -116,5 +116,226 @@
                 }
             }
         }
+    },
+    "MapEnemySet": {
+        "BOSS02": {
+            "display_name": "Burt the Bashful"
+        },
+        "BOSS03": {
+            "display_name": "Bunson the Hot Dog"
+        },
+        "BOSS04": {
+            "display_name": "Miss Cluck the Insincere"
+        },
+        "BOSS05": {
+            "display_name": "Naval Piranha"
+        },
+        "BOSS07": {
+            "display_name": "Baby Bowser"
+        },
+        "BOSS08": {
+            "display_name": "Mega Baby Bowser"
+        },
+        "BOSS51": {
+            "display_name": "Big Montgomery"
+        },
+        "BOSS52": {
+            "display_name": "Snifberg the Unfeeling"
+        },
+        "BOSS53": {
+            "display_name": "Knot-Wing the Koopa"
+        },
+        "ENEMY002": {
+            "display_name": "Nipper Plant"
+        },
+        "ENEMY003": {
+            "display_name": "Nipper Spore"
+        },
+        "ENEMY004": {
+            "display_name": "Fluffy Phantom"
+        },
+        "ENEMY005": {
+            "display_name": "Gusty"
+        },
+        "ENEMY006": {
+            "display_name": "Koopa Troopa"
+        },
+        "ENEMY008": {
+            "display_name": "Koopa Paratroopa"
+        },
+        "ENEMY010": {
+            "display_name": "Miss Cluck and Peeplys"
+        },
+        "ENEMY016": {
+            "display_name": "Snoot"
+        },
+        "ENEMY018": {
+            "display_name": "Snag-Stitch"
+        },
+        "ENEMY020": {
+            "display_name": "Flooff"
+        },
+        "ENEMY022": {
+            "display_name": "Ruffin' Tumble"
+        },
+        "ENEMY026": {
+            "display_name": "Tap-Tap"
+        },
+        "ENEMY027": {
+            "display_name": "Burt"
+        },
+        "ENEMY028": {
+            "display_name": "Monty Mole"
+        },
+        "ENEMY029": {
+            "display_name": "Frame Chomp"
+        },
+        "ENEMY031": {
+            "display_name": "Cheep Cheep"
+        },
+        "ENEMY033": {
+            "display_name": "Pokey Pom"
+        },
+        "ENEMY035": {
+            "display_name": "Gargantua Blargg"
+        },
+        "ENEMY036": {
+            "display_name": "Little Mouser"
+        },
+        "ENEMY037": {
+            "display_name": "Fluffin' Puffin"
+        },
+        "ENEMY038": {
+            "display_name": "Burrbert"
+        },
+        "ENEMY040": {
+            "display_name": "Bullet Bill"
+        },
+        "ENEMY040S": {
+            "display_name": "Bull's-Eye Bill"
+        },
+        "ENEMY040C": {
+            "display_name": "Woollet Bill"
+        },
+        "ENEMY042": {
+            "display_name": "Lakitu"
+        },
+        "ENEMY045": {
+            "display_name": "Frame Boo"
+        },
+        "ENEMY046": {
+            "display_name": "Fang"
+        },
+        "ENEMY051": {
+            "display_name": "Wall Lakitu"
+        },
+        "ENEMY053": {
+            "display_name": "Bumpty"
+        },
+        "ENEMY055": {
+            "display_name": "Goonie"
+        },
+        "ENEMY056": {
+            "display_name": "Flightless Goonie"
+        },
+        "ENEMY057": {
+            "display_name": "Skeleton Goonie"
+        },
+        "ENEMY058": {
+            "display_name": "Flightless Skeleton Goonie"
+        },
+        "ENEMY060": {
+            "display_name": "Wik"
+        },
+        "ENEMY061": {
+            "display_name": "Lava Drop"
+        },
+        "ENEMY062": {
+            "display_name": "Nep-Enut"
+        },
+        "ENEMY063": {
+            "display_name": "Spray Fish"
+        },
+        "ENEMY064": {
+            "display_name": "Hot Dog"
+        },
+        "ENEMY065": {
+            "display_name": "Fooly Flower"
+        },
+        "ENEMY066": {
+            "display_name": "Clawdaddy"
+        },
+        "ENEMY069": {
+            "display_name": "Kamek"
+        },
+        "ENEMY071": {
+            "display_name": "Ukiki"
+        },
+        "ENEMY074": {
+            "display_name": "Smooch Spider"
+        },
+        "ENEMY075": {
+            "display_name": "Lunge Fish"
+        },
+        "ENEMY080": {
+            "display_name": "Li'l Smooch Spider"
+        },
+        "ENEMY100": {
+            "display_name": "Shy Guy"
+        },
+        "ENEMY101": {
+            "display_name": "Hook Guy"
+        },
+        "ENEMY102": {
+            "display_name": "Fly Guy"
+        },
+        "ENEMY103": {
+            "display_name": "Boo Guy"
+        },
+        "ENEMY104": {
+            "display_name": "Woozy Guy"
+        },
+        "ENEMY105": {
+            "display_name": "Stilt Guy"
+        },
+        "ENEMY108": {
+            "display_name": "Snifit"
+        },
+        "ENEMY111": {
+            "display_name": "Pharaoh Guy"
+        },
+        "ENEMY112": {
+            "display_name": "Snow Guy"
+        },
+        "ENEMY113": {
+            "display_name": "Shy Guy Tower"
+        },
+        "ENEMY114": {
+            "display_name": "Ice Snifit"
+        },
+        "ENEMY116": {
+            "display_name": "Bomb Guy"
+        },
+        "ENEMY200": {
+            "display_name": "Piranha Plant"
+        },
+        "ENEMY201": {
+            "display_name": "Wild Ptooie Piranha"
+        },
+        "ENEMY203": {
+            "display_name": "Stalking Piranha Plant"
+        },
+        "ENEMY328": {
+            "display_name": "Monty Mole Patch"
+        },
+        "ENEMY340": {
+            "display_name": "Bullet Bill Patch"
+        },
+        "ENEMY341": {
+            "display_name": "Nipper Spore Patch"
+        },
+        "ENEMY342": {
+            "display_name": "Ruffin' Tumble Patch"
+        }
     }
 }
