@@ -2,7 +2,7 @@
     "MapObjSet": {
         "egg_box": {
             "description": "Dispenses yarn balls.",
-            "display_name": "Yarn Ball Box",
+            "display_name": "Yarn Basket",
             "parameters": {
                 "Random": {
                     "data_type": "bool",
