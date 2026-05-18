@@ -339,6 +339,9 @@
         },
         "ENEMY342": {
             "display_name": "Ruffin' Tumble Patch"
+        },
+        "FRIEND011": {
+            "display_name": "Hearts"
         }
     }
 }
