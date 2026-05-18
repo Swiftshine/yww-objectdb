@@ -166,6 +166,9 @@
         "ENEMY010": {
             "display_name": "Miss Cluck and Peeplys"
         },
+        "ENEMY011": {
+            "display_name": "Hearts"
+        },
         "ENEMY016": {
             "display_name": "Snoot"
         },
