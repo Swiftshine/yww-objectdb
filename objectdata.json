@@ -53,6 +53,47 @@
                 }
             }
         },
+        "frame_windmill": {
+            "display_name": "Windmill",
+            "parameters": {
+                "Filed-in Platforms": {
+                    "data_type": "dropdown_int",
+                    "slot": 0,
+                    "description": "The platforms that are filled in upon spawn. Those that are left blank become frames to be filled in by the player.",
+                    "note": "The values given assume an initial rotation of 0 degrees.",
+                    "values": {
+                        "None": 0,
+                        "Right": 1,
+                        "Right, Top": 2,
+                        "Right, Top, Left": 3,
+                        "All": 4,
+                        "Right, Left": 5
+                    }
+                },
+                "Rotation Speed": {
+                    "data_type": "float",
+                    "slot": 0,
+                    "description": "Indicates how fast the windmill will rotate.",
+                    "note": "Positive values are counterclockwise."
+                },
+                "Starting Rotation": {
+                    "data_type": "float",
+                    "slot": 1,
+                    "description": "Indicates the beginning rotation of the windmill.",
+                    "note": "In degrees."
+                },
+                "Filled-in Platform Colors": {
+                    "data_type": "string",
+                    "slot": 0,
+                    "description": "Indicates the colors of the filled-in platforms.",
+                    "notes": [
+                        "Enter the numeric values of each color in a comma-separated list. Example: \"1,2,3\"",
+                        "Colors are picked sequentially, in order of the platforms being spawned.",
+                        "If the number of filled-in platforms is greater than the number of colors provided in this field, the remaining platforms will be red."
+                    ]
+                }
+            }
+        },
         "knit_pipe": {
             "display_name": "Pipe (Top)",
             "parameters": {
