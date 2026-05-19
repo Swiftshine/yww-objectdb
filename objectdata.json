@@ -225,6 +225,25 @@
             }
         }
     },
+    "MapItemSet": {
+        "craft_wool": {
+            "display_name": "Wonder Wool",
+            "description": "A collectible bundle of wool.",
+            "parameters": {
+                "Wool ID": {
+                    "data_type": "dropdown_int",
+                    "slot": 0,
+                    "values": {
+                        "First": 0,
+                        "Second": 1,
+                        "Third": 2,
+                        "Fourth": 3,
+                        "Fifth": 4
+                    }
+                }
+            }
+        }
+    },
     "MapEnemySet": {
         "BOSS02": {
             "display_name": "Burt the Bashful"
