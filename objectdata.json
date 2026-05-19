@@ -53,6 +53,73 @@
                 }
             }
         },
+        "egg_flower": {
+            "display_name": "Yarn Ball Flower",
+            "description": "A flower that dispenses yarn balls.",
+            "parameters": {
+                "Dispense Limit": {
+                    "data_type": "int",
+                    "slot": 0,
+                    "description": "The number of yarn balls this flower is allowed to dispense in its lifetime.",
+                    "note": "Negative values indicate no limit."
+                },
+                "Random": {
+                    "data_type": "bool",
+                    "slot": 1
+                },
+                "Yarn Ball Color": {
+                    "data_type": "dropdown_int",
+                    "slot": 2,
+                    "description": "Indicates the color of the yarn ball.",
+                    "note": "If \"Random\" is set, this value is ignored.",
+                    "values": {
+                        "Red": 0,
+                        "Orange": 1,
+                        "Yellow": 2,
+                        "Light Green": 3,
+                        "Green": 4,
+                        "Light Blue": 5,
+                        "Dark Blue": 6,
+                        "Purple": 7,
+                        "Pink": 8,
+                        "White": 9,
+                        "Dark Gray": 10,
+                        "Light Gray": 11,
+                        "Brown": 12
+                    }
+                },
+                "Z Position": {
+                    "data_type": "float",
+                    "slot": 0,
+                    "note": "This value overrides the Z value in its positioning in the level."
+                },
+                "Dispense Angle": {
+                    "data_type": "float",
+                    "slot": 1,
+                    "description": "The angle available for the flower to dispense yarn balls with."
+                },
+                "Dispense Height": {
+                    "data_type": "float",
+                    "slot": 2,
+                    "description": "How many tiles high the yarn balls will go.",
+                    "note": "This is capped at ~8 tiles."
+                },
+                "Dispense Interval": {
+                    "data_type": "float",
+                    "slot": 3,
+                    "description": "A yarn ball will be dispensed every N seconds."
+                },
+                "Forbidden Colors": {
+                    "data_type": "string",
+                    "slot": 0,
+                    "description": "These colors are not allowed to be dispensed.",
+                    "notes": [
+                        "Enter the numeric values of each color in a comma-separated list. Example: \"1,2,3\"",
+                        "If no colors are allowed, the game will crash."
+                    ]
+                }
+            }
+        },
         "frame_windmill": {
             "display_name": "Windmill",
             "parameters": {
